@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condição</title>
+</head>
+<body>
+    <h1>Avaliador de Estrageiro</h1>
+    Digite sua Nacionalidade: <input type="text" name="txtes" id="txtes">
+    <input type="button" value="Enviar" onclick="clicar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function clicar(){
+            var país = window.document.getElementById('txtes').value;
+            if(país == 'Brasileiro'){
+                res.innerHTML ='Você é Brasileiro KRL'
+            } else {
+                res.innerHTML = 'Você é estrangeiro'
+            }
+        }
+            
+        
+    </script>
+</body>
+</html>

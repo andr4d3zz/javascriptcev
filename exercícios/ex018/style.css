@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(73, 107, 163);
+}
+
+h1{
+    text-align: center;
+    color: white;
+
+}
+
+section{
+    margin: auto;
+    width: 90vw;
+}
+
+div#botao{
+    background-color: white;
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    margin: 15px
+}
+
+div > p {
+    margin: 10px;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
+}
